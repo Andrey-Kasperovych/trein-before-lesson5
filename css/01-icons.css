@@ -22,11 +22,15 @@
 
 .product-actions {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
 
   outline: 3px solid orange;
   display: flex;
+}
+
+.product-thumb {
+  position: relative;
 }
 
 .product-actions .icon {
